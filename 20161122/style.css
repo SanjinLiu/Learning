@@ -1,0 +1,31 @@
+body{
+    padding:30px; font-family:"楷体";
+}
+li{
+    margin:15px;
+    padding: 8px;
+    color: #000;
+}
+a{
+    color: 	#36f;
+    text-decoration:none;
+}
+a:hover {
+    color: #F36;
+}	/* 鼠标移动到链接上 */
+.center{
+    text-align: center; font-family:"宋体"; font-size:30px;
+}
+.center1{
+    text-align: center; font-fanily："宋体";font-size:15px;
+}
+.casa p{
+    padding:10px; line-height:30px;
+}
+body{
+    width:750px;
+    margin: 0 auto;
+}
+hr{
+    width:700px;
+}

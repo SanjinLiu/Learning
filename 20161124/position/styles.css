@@ -1,0 +1,125 @@
+body{
+    background: url("tu1.jpg");
+}
+#boss{
+    width: 1140px;
+    margin: 30px auto;
+ }
+.header.box{
+    width: 100px;
+    height: 100px;
+    background: #f00;
+    color: #000;
+    text-align:center;
+    line-height:100px;
+    float: left;
+}
+a{
+   text-decoration: none; 
+   padding: 32px 0px;
+   color: #fff;
+}
+.sj1{
+    border-left:10px solid #f00;
+    border-top:10px solid #fff;
+    border-right:10px solid #fff;
+    border-bottom: 10px solid #f00;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    left: 210;
+}
+.sj2{
+    border-left:10px  solid #f00; 
+    border-top:10px solid #f00;
+    border-right:10px solid#fff;
+    border-bottom: 10px solid #fff;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    left: 210px;
+    top: 110px;
+}
+#father{
+    color: #fff;
+    position:relative;
+    top:20px;
+    text-align:center;
+    line-height:60px;
+}
+.son2{
+    background: #000;
+    float: left;
+    width: 85px;
+    height: 60px;
+    list-style-type: none;
+}
+.son3{
+    float: left;
+    width: 70px;
+    height:80px;
+    background: #f00;
+    color: #fff;
+    list-style-type: none;
+    line-height: 80px;
+    position: relative;
+    bottom: 10px;
+}
+.son4{
+    background: #000;
+    float: left;
+    width: 75px;
+    height: 60px;
+    list-style-type: none;
+}
+.son5{
+    background: #000;
+    float: left;
+    width: 100px;
+    height: 60px;
+    list-style-type: none;
+}
+.son6{
+    background: #000;
+    float: left;
+    width: 65px;
+    height: 60px;
+    list-style-type: none;
+}
+.son7{
+    background: #000;
+    float: left;
+    width: 60px;
+    height: 60px;
+    list-style-type: none;
+}
+.son8{
+    background: #000;
+    float: left;
+    width: 90px;
+    height: 60px;
+    list-style-type: none;
+}
+.son9{
+    background: #000;
+    float: left;
+    width: 80px;
+    height: 60px;
+    list-style-type: none;
+}
+.son0{
+    background: #000;
+    float: left;
+    width:415px;
+    height: 60px;
+    list-style-type: none;
+}
+.clear{
+    clear: both;
+}
+a:hover{
+    background: #f00;
+    color: #000;
+     
+}
+

@@ -1,0 +1,54 @@
+.box{
+    height: 50px;
+    background: #32f;
+    width: 600px;
+}
+.box.box1{
+    margin: 30px  0px 0px 100px;
+}
+.box.box2{
+    height: 150px;
+    margin: 10px  0px 0px 100px;
+}
+.box.box3{
+    height: 100px;
+    margin: 50px  0px 0px 100px;
+}
+#smbox{
+    width: 600px;
+    margin: 0px 0px 0px 100px;
+}
+.sbox{
+    height: 50px;
+    background: #32f;
+    margin:10px 0px 0px 40px;
+    width: 100px;
+}
+.sbox.sbox1{
+    float:left;
+}
+.sbox.sbox2{
+    float: left;
+}
+.sbox.sbox3{
+    float: left;
+}
+.sbox.sbox4{
+    float: left;
+}
+.clear{
+    clear: both;
+}
+.sbox.sbox5{
+    float: left;
+}
+.sbox.sbox6{
+    float: left;
+}
+.sbox.sbox7{
+    float: left;
+}
+.sbox.sbox8{
+    float: left;
+}
+

@@ -1,0 +1,91 @@
+#boss{
+    width: 500px;
+    height: 350px;
+    margin: 0 auto;
+    position:relative;
+    top: 50px;
+}
+#father{
+    background:#078;
+    width: 400px;
+    height:200px;
+    position:absolute;
+    top: 15px;
+    left: 50px;
+
+}
+.son1{
+     width: 150px;
+     height: 150px;
+     position:absolute;
+     left: 25px;
+     top: 25px;
+     float: left;
+     background-image:url("./image1.jpg");
+}
+.son2{
+     width: 150px;
+     height: 150px;
+     position:absolute;
+     left: 200px;
+     top: 30px;
+     float: left;
+}
+.box{
+    margin-top: 10px;
+}
+input{
+     width: 80px;
+     background:rgba(231,0,0,0);
+     border: 0px;
+     height: 25px;
+}
+#mother{
+    position: absolute;
+    top: 240px;
+    left:80px;
+
+}
+.icon{
+    margin-left: 20px;
+}
+.icon1{
+    width: 45px;
+    height:45px;
+    background-image: url("./image.jpg");
+    background-position: -138px 560px;
+    float:left;
+}
+.icon2{
+    width: 45px;
+    height:45px;
+    background-image: url("./image.jpg");
+    background-position: -30px 290px;
+    float: left;
+}
+.icon3{
+    width: 45px;
+    height:45px;
+    background-image: url("./image.jpg");
+    background-position: 74px 613px;
+    float: left;
+}
+.icon4{
+    width: 45px;
+    height:45px;
+    background-image: url("./image.jpg");
+    background-position:128px 611px;
+    float: left;
+}
+.icon5{
+    width: 45px;
+    height:45px;
+    background-image: url("./image.jpg");
+    background-position: 74px 1207px;
+    float: left;
+}
+.icon5:hover{
+    background-image:url("./image.jpg");
+    background-position: 398px 1151px;
+
+}

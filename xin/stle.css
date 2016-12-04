@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#header{
+    width: 999;
+    height: 100px;
+    background: #fff;
+    margin: 0 auto;
+}
+#header.a{
+    float: left;
+}
+#header.a.img{
+    border: none;
+}
+.header.search{
+    float: right;
+    
+}

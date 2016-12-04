@@ -1,0 +1,58 @@
+#boss{
+    width:500px;
+    margin: 0 auto;
+}
+#father{
+    width: 400px;
+    height: 200px;
+    background: #23f;
+    margin: 20px auto;
+}
+.left.box{
+    width:150px;
+    height: 150px;
+    background: #2f2;
+    margin: 25px;
+    float: left;
+    background-image: url(./tu.jpg)
+}
+.right.box{
+    width: 175px;
+    height: 150px;
+    float:left;
+    margin: 25px 20px 20px 0px;
+}
+input{
+    width:70px;
+    border: 0px;
+    background: rgba(23,0,0,0)
+}
+.name{
+    margin: 15px;
+}
+.ip{
+    margin: 15px;
+}
+.zhiwei{
+    margin: 15px;
+}
+#clear{
+    clear: both;
+}
+#mother{
+    width: 400px;
+    height: 50px;
+    margin: 20px auto;
+}
+.icon{
+    width: 45px;
+    height: 45px;
+    margin: 10px;
+    float: left;
+    background: #f66;
+}   
+.icon.icon1{
+    background-image: url("./icons.jpg");
+    background-position: -245px 100px;
+}
+

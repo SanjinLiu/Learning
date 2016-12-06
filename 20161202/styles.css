@@ -325,7 +325,7 @@ a{
     font-size: 13px;
     color: #787973;
 }
-#were{
+.saynav{
     width: 1005px;
     height: auto;
     margin: 0 auto;
@@ -366,27 +366,34 @@ a{
 .weretu a{
     float: left;
     width: 235px;
-    height: 285;
     background: #fff;
-    padding: 20px 0 0 20px;
+    padding: 33px 0 0 16px;
+}
+.meitu.meitu1{
+    margin-left: 1px;
 }
 .meitu img{
     margin: 0 auto;
+}
+.jiage{
+    width: 225px;
+    height: 45px;
+    padding: 17px 0;
 }
 .jiaqian{
     margin: 0 auto;
     color: #f03f6b;
     line-height: 30px;
-    padding: 5px 0;
     float: left;
+    font-weight: bold;
 }
-.yuan{
-    font-size: 12px;
+.yuan1{
+    font-size: 13px;
 }
-.jiaqian.unit{
-    font-size: 23px;
+.unit1{
+    font-size: 26px;
 }
-.jiaqian.tiny{
+.tiny1{
     font-size: 16px;
 }
 .qingchu{
@@ -394,22 +401,68 @@ a{
 }
 .jiao{
     display: inline-block;
-    background-position: -249px -175px;
     width: 50px;
     background: #fe7411;
     line-height: 17px;
-    padding-left: 13px;
+    padding-left: 5px;
     color: #fff;
     font-size: 12px;
+    border-radius: 15px;
+    
 }
 .quchu{
     color: #979797;
     text-decoration: line-through;
     font-size: 9px;
+    padding-left: 2px;
 }
 .discount1{
     font-size: 11px;
     color: #979797;
-    line-height: 3;/*这里不知道为什么没有单位可以，有单位就不可以*/
-    margin-left: 30px;
+    line-height: 35px;
+    padding-left: 7px;
 }
+.jiao1{
+    background: #feffff;
+    color: #979797;
+    border: 1px solid #a6a1a5;
+    width: 30px;
+}
+.box{
+    width: 1005px;
+    margin: 0 auto;
+    height: 335px;
+}
+.weretu.gang{
+    width: 990px;
+    background:#f1f1f1;
+    height: 1px;
+    margin: 10px auto;
+}
+#footer{
+    background: #fff;
+    width: 100%;
+    height: 225px;
+}
+.friendlylink{
+    width: 955px;
+    height: 40px;
+    margin: 15px auto;
+    border-bottom: 1px dotted #a6a1a5;
+}
+.friendlylink ul{
+    width: 955px;
+}
+.friendlylink ul li{
+    list-style: none;
+    padding: 0 2px;
+    line-height: 40px;
+    float: left;
+}
+.rightli{
+    float:right;
+}
+.friendlylink ul li a{
+    color: #a6a1a5;    
+}
+

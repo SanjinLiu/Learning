@@ -23,7 +23,9 @@ body{
     width: 270px;
     height: 41px;
     float: left;
+    padding-left: 15px;
     margin: 0px;
+
 }
 #login li{  
     float: left;
@@ -452,6 +454,7 @@ a{
 }
 .friendlylink ul{
     width: 955px;
+    height: 40px;
 }
 .friendlylink ul li{
     list-style: none;
@@ -460,9 +463,58 @@ a{
     float: left;
 }
 .rightli{
-    float:right;
+    float:right;/*这个为什么不能悬浮右*/
 }
 .friendlylink ul li a{
     color: #a6a1a5;    
 }
-
+.footshouye{
+    width: 820px;
+    height: auto;
+    margin: 10px auto;
+}
+.footshouye ul{
+    padding: 0;
+}
+.footshouye ul li{
+    list-style: none;
+    float: left;
+    padding: 0 6px;
+    color: #606060;
+    
+}
+.footshouye ul li a{
+    color: #606060;
+    padding: 0px;
+    font-size: 12px;
+}
+.foottu{
+    width: 635px;
+    margin: 5px auto;
+}
+.foottu a img{
+    width: 115px;
+    height: 43px;
+    float: left;
+    padding: 12px 5px;
+}
+.footp{
+    width: 470px;
+    margin: 5px auto;
+    font-size: 12px;
+    color: #919191;
+}
+.footfoot{
+    width: 240px;
+    margin: 5px auto;
+}
+.footfoot a img{
+    width: 18px;
+    height: 18px;
+    float: left;
+    padding: 2px;
+}
+.footfoot span{
+    float: left;
+    margin-top: 5px;
+}

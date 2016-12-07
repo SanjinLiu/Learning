@@ -23,7 +23,7 @@ body{
     width: 270px;
     height: 41px;
     float: left;
-    padding-left: 15px;
+    padding-left: 5px;
     margin: 0px;
 
 }
@@ -344,13 +344,20 @@ a{
     line-height: 35px;
 }
 .saynav ul li a{
-    padding-left:40px;
+    padding:0 20px;
     line-height: 35px;
 }
 .red{
     color: #d67d43;
 }
-.saynav ul li a:hover{
+.yello{
+    width:40%;
+    height: 4px;
+    background: #d67d43;
+    display: none;
+}
+.saynav ul li a:hover+.yello{
+    display: block;
     color: #d67d43;/*不知道怎么搞下面的那个覆盖隐藏*/
 }
 .xian{
@@ -439,7 +446,7 @@ a{
     width: 990px;
     background:#f1f1f1;
     height: 1px;
-    margin: 10px auto;
+    margin: 10px auto #fff;
 }
 #footer{
     background: #fff;

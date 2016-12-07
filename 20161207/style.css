@@ -3,7 +3,7 @@ body{
     height: 100%;
     background: #fff;
     margin: 0;
-    font-family: "宋体";
+    font-family: "-webkit-pictograph";
 }
 #header{
     width: 100%;
@@ -81,10 +81,53 @@ body{
 #background{
     width: 100%;
     height: 400px;
+    background-image:url(images/beijing.jpg);
+    opacity:0.6;
+    position: relative;
+    border: 1px solid #000;
 }
-#background img{
-    width: 100%;
-    height: 400px;
+.box{
+     width: 365px;
+     height: 60px;
+     padding: 6px;
+     border: 1px solid #f00;
+     position: absolute;
+     left:50%;
+     top:50%;
+     margin-left:-166px;
+     margin-top:-30px;
+}
+.boxa{
+    text-decoration:none;
+   
+}
+.onebox{
+    display: block;
+    width: 60px;
+    height: 60px;
+    background: #f00;
+    color: #fff;
+    font-size: 21px;
+    font-weight: bold;
+    text-align: center;
+    float: left;
+}
+.twobox{
+    float: left;
+    font-size: 45px;
+    color: #fff;
+    font-weight: bold;
+    padding: 0 20px;
+    line-height: 60px;
+    display: block;
+}
+.threebox{
+    display: block;
+    width: 80px;
+    height: 60px;
+    font-size: 20px;
+    float: left;
+    color: #fff;
 }
 #icon{
     width: 950px;
@@ -112,7 +155,7 @@ body{
 }
 #anli{
     width: 950px;
-    height: 20px;
+    height: 30px;
     margin:0 auto;
 }
 .xianleft{
@@ -127,6 +170,7 @@ body{
     text-align: center;
     line-height: 20px;
     padding: 3px;
+    font-size: 13px;
 }
 .xianright{
     width: 440px;
@@ -145,4 +189,71 @@ body{
     height: 300px;
     float: left;
     padding: 45px 20px 57px 0px ;
+}
+.text{
+    width: 950px;
+    height: 33px;
+    margin: 0 auto;
+    background: #000;
+    font-size: 20px;
+    color: #f00;
+    text-align: center;
+    font-weight: bold;
+    line-height: 33px;
+}
+.us{
+    color: #fff;
+}
+#ptext{
+    color: #666666;
+    text-align: center;
+    margin: 25px 0 95px 0;
+    font-size: 15px;
+}
+.bold{
+    font-size: 18px;
+}
+.bold span{
+    font-weight: bold;
+}
+#liucheng{
+    margin: 30px 0 130px 0;
+    text-align: center;
+    height: 30px;
+    font-size: 13px;
+    color: #666666;
+    line-height: 30px;
+}
+#liucheng span{
+    padding-right: 5px;
+}
+#liucheng img{
+    width: 24px;
+    height: 24px;
+    padding-right:10px;
+    vertical-align:middle;
+}
+#footer{
+    background: #eaeaea;
+    width: 100%;
+    height: 117px;
+    border-top: 1px solid #666666;
+}
+.footertext{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 12px;
+    width: 265px;
+    height: 90px;
+    padding: 14px 0;
+}
+.footertext ul li{
+    list-style: none;
+    float: left;
+}
+.lirules{
+    padding: 0 3px;
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
 }

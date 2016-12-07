@@ -1,0 +1,148 @@
+body{
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    margin: 0;
+    font-family: "宋体";
+}
+#header{
+    width: 100%;
+    height: 31px;
+    background: #ededed;
+    margin-bottom: 1px;
+}
+#header img{
+    width: 265px;
+    height: 30px;
+    margin-left: 60%;
+}
+#header1{
+    width: 100%;
+    height: 2px;
+    background: #ededed;
+}
+#logo{
+    width: 950px;
+    margin: auto;
+    padding: 40px 0 1px 0;
+}
+#logo a img{
+    width: 200px;
+    height: 50px;
+    float: left;
+    margin-left: 3px;
+}
+.logoli{
+    float: left;
+    padding: 0px;
+    margin: 10px 0 18px 94px;
+}
+.logoli li{
+    list-style: none;
+    float: left;
+    color: #666666;
+    
+}
+.rules{
+    color: #000;
+    padding: 0 2px;
+}
+.abrother{
+    width: 60%;
+    height: 3px;
+    background: #000;
+    display: none;
+    margin:0 auto;
+    margin-top: 15px;  
+}
+.logoli li a{
+    padding: 0 13px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+.shouye{   
+    padding-bottom: 15px;
+    border-bottom: 3px solid #000;
+}
+.shouye a{
+    color: #000;
+    margin: 0 13px;
+}
+.logoli li a:hover+.abrother{
+    display: block;
+}
+.logoli li a:hover{
+    color: #000;
+}
+.clear{
+    clear: both;
+}
+#background{
+    width: 100%;
+    height: 400px;
+}
+#background img{
+    width: 100%;
+    height: 400px;
+}
+#icon{
+    width: 950px;
+    margin: 0 auto;
+    height: 225px;
+}
+#icon a{
+    margin: 50px 39px;
+    float: left;
+}
+#icon a img{
+    width: 112px;
+    height: 112px;    
+}
+.exhibition{
+    width: 950px;
+    height: 33px;
+    margin: 0 auto;
+    background: #000;
+    font-size: 20px;
+    color: #f00;
+    text-align: center;
+    font-weight: bold;
+    line-height: 33px;
+}
+#anli{
+    width: 950px;
+    height: 20px;
+    margin:0 auto;
+}
+.xianleft{
+    width: 440px;
+    height: 1px;
+    margin-top: 12px;
+    background: #000;
+    float: left;
+}
+.span{
+    float: left;
+    text-align: center;
+    line-height: 20px;
+    padding: 3px;
+}
+.xianright{
+    width: 440px;
+    height: 1px;
+    margin-top: 12px;
+    background: #000;
+    float: left;
+}
+#zhanshi{
+    width: 950px;
+    margin: 0 auto;
+    height: 405px;
+}
+#zhanshi a{
+    width: 170px;
+    height: 300px;
+    float: left;
+    padding: 45px 20px 57px 0px ;
+}

@@ -2,5 +2,269 @@ body{
     width: 100%;
     height: 100%;
     background: #f1f1f1;
-    font-family: "宋体" "微软雅黑";
+    font-family: "宋体";
+    margin: 0px;
+    font-size: 12px;
 }
+#header{
+    background: #f5f5f5;
+    width: 100%;
+    height: 35px;
+    margin: 0px;
+}
+.headerbox{
+    width: 1190px;
+    height: 35px;
+    margin: 0 auto;
+
+}
+.zhuce{
+    float: left;
+    padding: 0px;
+    margin: 0px;
+}
+#header ul li{
+    list-style: none;
+    float: left;
+}
+.boxa{
+    text-decoration: none;
+    line-height: 35px;
+    padding: 0 10px;
+    color: #676767;
+}
+.qin{
+    color: #f00;
+}
+.mytb{
+    float: right;
+    margin: 0px;
+}
+.clear{
+    clear: both;
+}
+.boxa.box1{
+    border-left: 1px solid #e0e0e0;
+}
+#logo{
+    width: 100%;
+    height: 130px;
+    background: #fff;
+    margin: 0px;
+    padding: 0px;
+}
+.logo.boxb{
+    width: 1190px;
+    margin: 0 auto;
+}
+.logo-img{
+    padding: 39px 0 0 20px;
+    float: left;
+}
+.search{
+    width: 700px;
+    height: 90px;
+    float: left;
+    margin: 30px 0 0 100px;
+}
+.search-top{
+    height: 25px;
+    line-height: 25px;
+    width: 200px;
+}
+.search-ul{
+    padding: 0px;
+    margin: 0x;
+    height: 25px;
+}
+.search-ul li{
+    list-style: none;
+    float: left;
+}
+.a{
+    color: #f00;
+    padding:7px 13px;
+    text-decoration: none;
+}
+.a.baobei{
+    color: #fff;
+    font-weight: bold;
+    background: #ff4200;
+}
+.a:hover{
+    color: #fff;
+    font-weight: bold;
+    background: #ff4200;
+}
+.search-search{
+    width: 625px;
+    height: 34px;
+    border: 3px solid #ff4200;
+    float: left;
+    line-height: 34px;
+}
+.search-search-img1{
+    padding: 0 5px; 
+}
+.search-search-img2{
+    padding-right:12px;
+}
+.input-text{
+    width: 434px;
+    outline: medium;
+    border: 0;
+    height: 31px;
+    padding: 0px;
+}
+.input-submit{
+    width: 120px;
+    height: 34px;
+    outline: medium;
+    border: 0px;
+    background: #ff4200;
+    color: #fff;
+    font-size: 17px;
+    padding: 0px;
+
+}
+.search-gaoji{
+    float: left;
+    text-decoration: none;
+    width: 38px;
+    height: 40px;
+    font-size: 13px;
+    padding: 2px 7px;   
+    line-height: 18px;
+    color: #676767;
+}
+.search-bottom{
+    width: 630px;
+}
+.search-bottom-a{
+    color: #676767;
+    padding-right: 3px;
+    text-decoration: none;
+}
+.search-bottom-a.t{
+    color: #ff4200;
+}
+.search-bottom-a.more{
+    float: right;
+}
+.erweima{
+    float: right;
+    margin-top: 5px;
+    border: 1px solid #f1f1f1;
+    padding: 0 10px 13px 10px;
+    text-align: center;
+}
+.erweima a{   
+    color: #ff4200;
+    text-decoration: none;
+}
+.erweima a span{
+    line-height: 30px;
+}
+.erweima-img{
+    width: 80px;
+    height: 80px;
+    background-image: url(images/tb22_03.png);
+}
+#zhuti{
+    width: 100%;
+    height: 35px;
+    background: #fff;
+    overflow: hidden;
+}
+#zhuti ul{
+    padding: 0px;
+    width: 1190px;
+    margin: 0 auto;
+}
+#zhuti ul li{
+    list-style: none;
+    float: left;
+    line-height: 35px;
+}
+.zhutishichang{
+    background: #ff6537;
+    width: 190px;
+    height: 35px;
+}
+.zhutishichang-text{
+    color: #fffdfb;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0 90px 0 10px;
+}
+.a-red{
+    color: #ff6537;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding-right:26px;
+}
+.a-black{
+    color: #3a3a3a;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    padding-right:16px;
+}
+.a-red.tianmao{
+    padding-left: 20px;
+}
+.a-black.tao{
+    border-left: 1px solid #f1f1f1;
+    padding-left: 13px;
+}
+.a-black.ali{
+    border-left: 1px solid #f1f1f1;
+    padding-left: 13px;
+}
+#bodyer-one{
+    width: 1190px;
+    margin: 0 auto;
+}
+bodyer-one-left{
+    float: left;
+    width: 190px;
+    height: 520px;
+}
+.bodyer-one-left-ul{
+    padding: 0px;
+    width: 190px;
+    margin: 0px;
+    height: 480px;
+}
+.bodyer-one-left-ul li{
+    width: 190px;
+    line-height: 35px;
+    background: #ff6537;
+    list-style: none;
+    height: 30px;
+}
+.bodyer-one-left-ul li a{
+    list-style: none;
+    color: #fffdfb;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.left-img{
+    float: left;
+    margin: 10px 5px 0px 10px;
+
+}
+.right-img{
+    vertical-align: middle;
+    margin:13px 13px 0 0;
+    float: right;
+}
+.a-span{    
+    width: 130px;
+    float: left;
+    overflow: hidden;
+}
+

@@ -267,6 +267,7 @@ bodyer-one-left{
     float: left;
     overflow: hidden;
 }
-.bodyer-one-left-ul li a:hover {
-
+.bodyer-one-left-ul.two{
+    position: relative;
+    bottom: 480px;
 }

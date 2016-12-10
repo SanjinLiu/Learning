@@ -226,10 +226,10 @@ body{
     width: 1190px;
     margin: 0 auto;
 }
-bodyer-one-left{
+.bodyer-one-left{
     float: left;
     width: 190px;
-    height: 520px;
+    position: relative;
 }
 .bodyer-one-left-ul{
     padding: 0px;
@@ -266,8 +266,18 @@ bodyer-one-left{
     width: 130px;
     float: left;
     overflow: hidden;
+    height: 35px;
 }
 .bodyer-one-left-ul.two{
-    position: relative;
-    bottom: 480px;
+    position: absolute;
+    bottom: 275px;
+    display: none;
+
+}
+.border-one-center{
+    width: 590px;
+    height: 512px;
+    float: left;
+    border: 1px solid #000;
+    margin: 10px;
 }

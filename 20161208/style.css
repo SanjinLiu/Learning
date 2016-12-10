@@ -231,6 +231,9 @@ body{
     width: 190px;
     position: relative;
 }
+.border-one-box-left{
+    float: left;
+}
 .bodyer-one-left-ul{
     padding: 0px;
     width: 190px;
@@ -270,14 +273,121 @@ body{
 }
 .bodyer-one-left-ul.two{
     position: absolute;
-    bottom: 275px;
+    bottom: 42px;
     display: none;
+}
+.bodyer-one-center{
+    width: 700px;
+    height: 525px;
+    float: left;
+}
+.center-left{
+    float: left;
+    width: 520px;
+    height: 510px;
+    margin: 10px 10px 0px 10px;
+}
+.tianmao-biguang{
+    width:520px;
+    border-bottom: 2px solid #c12d21;
+    height: 17px;
+    margin-top: 8px;
+}
+.tianmao-gif{
+    float: left;
+    border-bottom: 2px solid #000;
+    height: 16px;
+}  
+.tianmao-left{
+    font-size: 15px;
+    font-weight: bold;
+    display: inline-block;
+    border-bottom: 2px solid #000;
+    height: 17px;
+}
+.tianmao-center{
+    font-size: 12px;
+    color: #606060;
+    display: inline-block;
+    height: 17px;
+}
+.tianmao-right{
+    color: #c12d21;
+    display: inline-block;
+    padding-left: 240px;
+    height: 17px;
+}
+.nanzhuang a{
+    width: 172px;
+    height: 99px;
+    display: block;
+    float: left;
+}
+.nanzhuang a img{
+    width: 173px;
+    height: 99px;
+    
+}
+.fenge1{
+    border: 1px solid #ebebeb;
+    border-top: 0px;
+}
+.fenge2{
+    border: 1px solid #ebebeb;
+    border-left: 0px;
+    border-bottom: 0px;
+}
+.fenge3{
+    border: 1px solid #ebebeb;
+    border-right: 0px;
+    border-bottom: 0px;
+}
+.center-right{
+    margin-top: 10px;
 
 }
-.border-one-center{
-    width: 590px;
-    height: 512px;
-    float: left;
-    border: 1px solid #000;
-    margin: 10px;
+.today{
+    line-height: 30px;
+    color: #a1a1a1;
+}
+.border-one-bottom{
+    width: 890px;
+    height: 78px;
+    background: #fff;
+}
+.border-one-bottom-a-img1{
+    width: 65px;
+    height:65px;
+    border: 1px solid #a1a1a1;;  
+    border-radius:50px;  
+    float: left;  
+    text-align: center;   
+    margin: 6px 7px 0 15px;
+}
+.border-one-bottom-a-img1 img{
+    padding-top: 5px;
+}
+.border-one-bottom a{
+    text-decoration: none;
+    display: block;
+}
+.meixiekong{
+    font-size: 17px;
+    color: #9c6c5e;
+    font-weight: bold;
+    padding-top: 10px;
+    list-style: none;
+}
+.woweixiekuang{
+    color: #9c6c5e;
+    padding-top: 5px;
+}
+.renqi{
+    color: #9a9a9a;
+    vertical-align: middle;
+    padding-top: 5px;
+    line-height: 20px;
+}
+.border-one-bottom-a-img2{
+    vertical-align: middle;
 }

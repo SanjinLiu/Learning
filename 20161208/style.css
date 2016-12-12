@@ -355,6 +355,10 @@ body{
     height: 78px;
     background: #fff;
 }
+.border-one-bottom div{
+    float: left;
+    width: 176px;
+}
 .border-one-bottom-a-img1{
     width: 65px;
     height:65px;
@@ -390,4 +394,248 @@ body{
 }
 .border-one-bottom-a-img2{
     vertical-align: middle;
+}
+.youxi{
+    font-size: 17px;
+    color: #70bb83;
+    font-weight: bold;
+    padding-top: 10px;
+    list-style: none;
+}
+.pk{
+    color: #70bb83;
+    padding-top: 5px;
+}
+.gaofushuai{
+    font-size: 17px;
+    color: #7b9dff;
+    font-weight: bold;
+    padding-top: 10px;
+    list-style: none;
+}
+.nanshen{
+    color: #7b9dff;
+    padding-top: 5px;
+}
+.fugunvlang{
+    font-size: 17px;
+    color: #7866cc;
+    font-weight: bold;
+    padding-top: 10px;
+    list-style: none;
+}
+.fuguyin{
+    color: #7866cc;
+    padding-top: 5px;
+}
+.shoubiaokong{
+    font-size: 17px;
+    color: #d24c64;
+    font-weight: bold;
+    padding-top: 10px;
+    list-style: none;
+}
+.maibiao{
+    color: #d24c64;
+    padding-top: 5px;
+}
+.border-one-box-right{
+    width: 290px;
+    height: 593px;
+    background: #fff;
+    float: left;
+    margin: 10px 0 0 10px;
+}
+.taojinbi{
+    width: 290px;
+    background-image: url(images/bg_01.jpg);
+    height: 160px;
+    border-bottom: 2px solid #f1f1f1;
+}
+.taojinbi-icon{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    margin: 15px 0px 0px 115px;
+}
+.hi{
+    margin:0 0 5px 125px;
+}
+.taojinbi-text a{
+    color: #f45d16;
+    text-decoration: none;
+    vertical-align: middle;
+}
+.taojinbi-text a img{
+    vertical-align: middle;
+    margin-left: 50px;
+}
+.box.denglu{
+    width:90px;
+    height: 25px;
+    background: #ff4400;
+    line-height: 25px;
+    float: left;
+    margin: 3px 0 0 17px;
+    text-align: center;
+}
+.box.zhuce{
+    width:75px;
+    height: 25px;
+    background: #ff4400;
+    line-height: 25px;
+    float: left;
+    text-align: center;
+    margin: 3px 10px 0 10px;
+}
+.box.kaidian{
+    width:75px;
+    height: 25px;
+    background: #ff4400;
+    line-height: 25px;
+    float: left;
+    text-align: center;
+    margin-top: 3px;
+}
+.box a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fffffa;
+    font-weight: bold;
+}
+.gonggaolan{
+    width: 290px;
+    height: 106px;
+    border-bottom: 2px solid #f1f1f1;
+}
+.gonggaolan-ul{
+    margin: 0px;
+    padding: 17px 0 0 15px;
+}
+.gonggaolan-ul li{
+    list-style: none;
+    float: left;
+    margin: 0 7px;
+}
+.gonggao-li{
+    margin-left: 3px;
+}
+.gonggaolan-ul li a{
+    text-decoration: none;
+    padding:5px 7px;
+    color: #000;
+    
+}
+.gonggao-li a{
+    font-weight: bold;
+}
+.gonggaolan-ul li a:hover{
+    border-bottom: 2px solid #ff4200;
+    font-weight: bold;
+}
+.mayun{
+    color: #ff4200;
+    margin: 17px 0 0 20px;
+    text-decoration:none;
+    display: block;
+}
+.lianheguo{
+    color: #000;
+    padding: 15px 0 0 20px;
+    text-decoration:none;
+    display: inline-block;
+}
+.papi{
+    color: #000;
+    padding: 15px 0 0 20px;
+    text-decoration:none;
+    display: inline-block;
+}
+.fuwu{
+    width: 290px;
+    height: 194px;
+    background: #fff;
+    border-bottom: 2px solid #f1f1f1;
+}
+.chonghuafei{
+    width: 72px;
+    height: 64px;
+    border-bottom: 1px solid #f1f1f1;
+    border-right: 1px solid #f1f1f1;
+    text-align: center;
+    float: left;
+}
+.chonghuafei img{
+    width: 22px;
+    height: 24px;
+    margin: 12px 0 4px 0;
+}
+.baoxian{
+    width: 71px;
+    height: 64px;
+    border-bottom: 1px solid #f1f1f1;
+    text-align: center;
+    float: left;
+}
+.baoxian img{
+    width: 22px;
+    height: 24px;
+    margin: 12px 0 4px 0;
+}
+.licai{
+    width: 71px;
+    height: 64px;
+    border-bottom: 1px solid #f1f1f1;
+    text-align: center;
+    float: left;
+}
+.licai img{
+    width: 22px;
+    height: 24px;
+    margin: 12px 0 4px 0;
+}
+.huochepiao{
+    width: 71px;
+    height: 64px;
+    border-bottom: 1px solid #f1f1f1;
+    text-align: center;
+    float: left;
+}
+.huochepiao img{
+    width: 22px;
+    height: 24px;
+    margin: 12px 0 4px 0;
+}
+.aliapp{
+    margin: 12px 0 0 20px;
+}
+.ali-app{
+    font-size: 14px;
+    font-weight: bold;
+}
+.wear{
+    padding-left: 170px;
+}
+.ali-icon{
+    margin: 3px 0 0 4px;
+}
+.ali-icon a{
+    text-decoration: none;
+}
+.ali-icon a img{
+    width: 33px;
+    height: 33px;
+    padding: 4px 7px;
+}
+#wochangguangde{
+    width: 1190px;
+    height:2710px;
+    margin: 10px auto;
+    background: #3a3a3a;
+}
+.wochangguangde-left{
+    width: 890px;
+    height: 2710px;
+    float: left;
+    background: #000;
 }

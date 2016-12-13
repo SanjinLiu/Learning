@@ -631,32 +631,25 @@ body{
     width: 1190px;
     height:2710px;
     margin: 10px auto;
-    background: #3a3a3a;
 }
 .wochangguangde-left{
     width: 890px;
     height: 2710px;
     float: left;
 }
-.wochangguangde-right{
-    width: 290px;
-    height: 2710px;
-    float: left;
-    background: #c12d21;
-    margin: 10px 0 0 10px;
-}
 .changguangde-img{
-    width: 220px;
-    height: 30px;
+    width: 200px;
+    height: 20px;
     vertical-align: middle;
-    margin: 100px 0 0 0;
+    margin: 0 0 0 350px;
 }
 .changguangde-wear{
     display: inline-block;
     background: #fff;
     width: 60px;
     height: 22px;
-    border-radius: 5px;
+    border-radius: 15px;
     text-align: center;
     line-height: 22px;
+    margin-left: 200px;
 }

@@ -645,19 +645,18 @@ body{
     background: #c12d21;
     margin: 10px 0 0 10px;
 }
-.changguangde{
-    width: 222px;
+.changguangde-img{
+    width: 220px;
     height: 30px;
-    line-height: 30px;
+    vertical-align: middle;
+    margin: 100px 0 0 0;
 }
-.fengexian-left{
-    width: 55px;
-    border-top: 1px solid #e4e4e4;
-    margin: 15px 0 0 50px;
-    float: left;
-}
-.fengexian-right{
-    width: 55px;
-    border-top: 1px solid #e4e4e4;
-    margin: 15px 0 0 100px;
+.changguangde-wear{
+    display: inline-block;
+    background: #fff;
+    width: 60px;
+    height: 22px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 22px;
 }

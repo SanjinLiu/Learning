@@ -184,7 +184,7 @@ body{
 #zhuti ul li{
     list-style: none;
     float: left;
-    line-height: 35px;
+    line-height: 30px;
 }
 .zhutishichang{
     background: #ff6537;
@@ -664,7 +664,7 @@ body{
     vertical-align: middle;
     margin: 0 0 0 350px;
 }
-.content-wear{
+.content-more{
     display: inline-block;
     background: #fff;
     width: 60px;
@@ -673,6 +673,10 @@ body{
     text-align: center;
     line-height: 22px;
     margin-left: 272px;
+}
+.content-more:hover{
+    color:#fff;
+    background: #f00;
 }
 .container-1{
     width: 440px;
@@ -1017,9 +1021,9 @@ body{
     background: #fff;
 }
 .banner img{
-    width: 890px;
+    width: 880px;
     height: 70px;
-    margin: 10px 0;
+    margin: 10px 5px;
 }
 .content-submenu{
     width: 220px;
@@ -1404,4 +1408,145 @@ body{
 }
 .tab-bottom.four a{
     padding: 0 5px;
+}
+.menu-column{
+    width: 280px;
+    height: 138px;
+    border-bottom: 1px solid #efefef;
+    border-right: 1px solid #efefef;
+    background: #fff;
+    float: left;
+}
+.column-box-top{
+    height: 40px;
+}
+.img1-a1{
+    text-decoration: none;
+}
+.img1-icon1{
+    width: 65px;
+    height: 20px;
+    padding: 10px 3px 0 15px;
+}
+.img1-icon2{
+    width: 19px;
+    height: 19px;
+    font-size: 15px;
+}
+.column-box-center{
+    float: left;
+    margin: 10px 0 0 15px;
+}
+.center-text1{
+    font-weight: bold;
+    line-height: 20px;
+    font-size: 15px;
+}
+.center-text2{
+    font-size: 15px;
+}
+.box-bottom{
+    color: #ff470e;
+    border: 1px solid #fa5d32;
+    border-radius: 10px;
+    margin: 10px 0 0 0;
+    font-size: 11px;
+    text-align: center;
+    width: 77px;
+    height: 21px;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 21px;
+}
+.img2-right{
+    width: 80px;
+    height: 85px;
+    padding: 5px 0 0 80px;
+    border: 0px;
+}
+.menu-column:hover{
+    border: 1px solid #fa5d32; 
+}
+.menu-column.one{
+    width: 201px;
+}
+.img2-right.one{
+    padding: 5px 0 0 20px;
+}
+.img1-icon1.qingcang{
+    width: 50px;
+}
+.img2-right.taojinbi{
+    padding: 5px 0 0 50px;
+    border: 0px;
+}
+.wochangguangde-right{
+    width: 290px;
+    float: left;
+    margin-left: 10px;
+}
+.nav{
+    width: 290px;
+    height: 110px;
+    background: #fff;
+}
+.title{
+    width: 65px;
+    height:20px;
+    padding: 10px ;
+    float: left;
+}
+.title-more{
+    float: left;
+    width: 60px;
+    height: 22px;
+    line-height: 22px;
+    padding: 10px 0 0 145px;
+    text-decoration: none;
+    color: #000;
+}
+.title-more:hover{
+    color:#c12d21;
+}
+.music{
+    width: 61px;
+    height: 61px;
+    float: left;
+    padding: 0px 10px;
+}
+.toutiao{
+    float: left;
+    width: 196px;
+    height: 61px;
+}
+.toutiao-text1{
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+    overflow: hidden;
+    width: 196px;
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+}
+.toutiao-text1:hover{
+    color: #c12d21;
+}
+.toutiao-text2{
+    font-size: 12px;
+    color: #000;
+    text-decoration: none;
+    overflow: hidden;
+}
+.subnav{
+    width: 290px;
+    height: 1225px;
+    background: #fff;
+    margin-top: 10px;
+}
+.subnav-logo{
+    width: 210px;
+    height: 22px;
+    padding: 15px 10px;
 }

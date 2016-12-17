@@ -2022,5 +2022,25 @@ body{
 #footer a img{
     height: 34px;
     padding: 10px 20px 20px 0px;;
-
+}
+#sidebar{
+    width: 50px;
+    background: #fff;
+    position: absolute;
+    left: 1320px;
+    top: 8000px;
+}
+.msg{
+    display: block;
+    padding: 10px 5px ;
+    border-bottom: 1px solid #e1e1e1;
+    margin: 0 3px;
+    text-decoration: none;
+    color: #000;
+    
+}
+.msg:hover{
+    color: #fff;
+    font-weight: bold;
+    background: #f00;
 }

@@ -1797,7 +1797,7 @@ body{
 .red-box{
     width: 231px;
     height: 227px;
-    background: rgba(255,73,95,0.1);
+    background: rgba(226, 122,154,0.1)
 }
 .red-box a{
     display: inline-block;
@@ -1808,7 +1808,7 @@ body{
     border-radius: 10px;
     text-decoration: none;
 }
-.main-two-box-left:hover+.main-two-box-left.one{
+.abc:hover .main-two-box-left.one{
     display: block;
 }
 .main-two-box-right{
@@ -2026,9 +2026,9 @@ body{
 #sidebar{
     width: 50px;
     background: #fff;
-    position: absolute;
-    left: 1320px;
-    top: 8000px;
+    position: fixed;
+    right: 120px;
+    top: 250px;
 }
 .msg{
     display: block;

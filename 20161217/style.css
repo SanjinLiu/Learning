@@ -1,0 +1,25 @@
+.a{
+    width: 200px;
+    height: 100px;
+    background: #000;
+}
+.b{
+    width: 100px;
+    height: 100px;
+    background: #f00;
+}
+.c{
+    width: 100px;
+    height: 100px;
+    display: none;
+    position: fixed;
+    top: 20px;
+}
+.d{
+     width: 100px;
+    height: 100px;
+    background:rgba(226, 122,154,0.1);
+}
+.a:hover .c{
+    display: block;
+}
